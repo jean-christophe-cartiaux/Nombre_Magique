@@ -1,5 +1,7 @@
+#Création de fonction Ddemander_nombre
 def demander_nombre(nb_min, nb_max):
     nombre_int=0
+    #création de la boucle pour gérer les erreurs
     while nombre_int ==0:
         nombre_str=input(f"Quelle est le nombre Magique entre {nb_min} et {nb_max} ? ")
         try:
@@ -16,7 +18,7 @@ def demander_nombre(nb_min, nb_max):
         else:
             "Bravo vous avez trouvez"
     #return(nombre)
-
+#définition des Variables "Pseudo Constante"
 NOMBRE_MIN = 1
 NOMBRE_MAX = 10
 NOMBRE_MAGIQUE = 5
